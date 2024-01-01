@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-image: url("https://uploads-ssl.webflow.com/5fc569bc4e943c45698bc443/603c45350dd6bf981307227b_Untitled-20.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ h3 {
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+ }
+ 
+
+
+ button {
+  bottom: 20px;
+ align-items: center;
+ text-align: center;
+ gap: 5px;
+ }
+
+ button:hover {
+  color:rgb(77, 74, 74);
+  background-color: rgb(175, 161, 161);
+ }
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
